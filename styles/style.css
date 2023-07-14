@@ -1,0 +1,775 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+/* _______________components_____________________ */
+/* colors= green rgb(60, 180, 180)  orenge rgb(226, 171, 69) */
+
+.all-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(60, 180, 180);
+    color: white;
+    transition: 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.all-btn:hover {
+    color: black;
+    background-color: white;
+    outline: none;
+}
+
+/* ______________________________________________________________ */
+
+.navbar {
+    background-color: rgb(60, 180, 180);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 50px;
+    color: rgb(60, 180, 180);
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.d-flex {
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+}
+
+.container-fluid {
+    background-color: rgb(60, 180, 180);
+    padding-right: 25px;
+}
+
+.head-num {
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+}
+
+
+
+
+/* ----------------------------------------- */
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 171, 69);
+    height: 100vh;
+}
+
+.wrap-desc {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-desc h3 {
+    font-size: 25px;
+    width: 472px;
+}
+
+.wrap__link {
+    width: 472px;
+    padding-left: 60px;
+
+}
+
+.wrap-info {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+
+.carousel-inner {
+    max-width: 650px;
+}
+
+.title {
+    font-size: 66px;
+    text-align: center;
+}
+
+
+/* ------------------------------------------------------- */
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 25px;
+}
+
+.about-item__img {
+    width: 200px;
+    height: 200px;
+}
+
+.about-item {
+    padding: 10px;
+    border: 1px solid rgb(226, 171, 69);
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-section__item-text {
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+
+/* ---_____-------------------------------------------- */
+.accordion {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kurs__img {
+    max-width: 200px;
+    min-width: 100px;
+    height: 150px;
+}
+
+.accordion-item {
+    width: 400px;
+    border-radius: 50px;
+}
+
+.accordion-button {
+    border-radius: 50px !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.accordion-header {
+    border-radius: 50px !important;
+    background-color: transparent;
+}
+
+.accordion__h4 {
+    margin-right: 80px;
+}
+
+#delete {
+    display: none;
+}
+
+.prof-kurs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profiles {
+    background-color: rgb(60, 180, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    height: 1300px;
+}
+
+.prof__div {
+    background-color: rgb(60, 180, 180);
+    text-align: center;
+}
+
+.prof__title {
+    font-size: 45px;
+    color: white;
+}
+
+.prof__div h6 {
+    display: inline-flex;
+    width: 650px;
+    margin: 25px;
+    font-size: 20px;
+}
+
+.prof__desc {
+    margin-bottom: 35px;
+}
+
+.prof__div h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+
+/* _________________________________________________________ */
+.help {
+    width: 100vw;
+    height: 50%;
+    padding: 25px;
+    background-color: rgb(226, 171, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.help__div {
+    width: 80vw;
+    background-color: white;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.help__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help__img {
+    width: 100px;
+    position: absolute;
+    bottom: 30px;
+    right: 190px;
+}
+
+
+/* __________________________________________ */
+
+.future {
+    width: 100vw;
+    color: rgb(60, 180, 180);
+    background-color: rgb(60, 180, 180);
+    padding: 35px;
+}
+
+.future__h1 {
+    height: 150px;
+    width: 100%;
+    font-size: 28px !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px !important;
+}
+
+.future__div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.future__img {
+    width: 250px;
+    height: 250px;
+}
+
+.future-el {
+    width: 400px;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.future__desc {
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 8px;
+}
+
+#correct__future {
+    height: 230px;
+}
+
+#correct__future_h1 {
+    padding-top: 10px;
+    padding-top: 30px !important;
+
+}
+
+#correct__future_h5 {
+padding-top: 8px;
+
+}
+
+
+
+
+/* ______________________________________ */
+
+.lesson {
+    background-color: rgb(226, 171, 69);
+    text-align: center;
+    padding: 25px;
+}
+
+.lesson__desc {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.step1,
+.step2,
+.step3 {
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px;
+    transition: 0.6s;
+
+}
+
+.step__desc {
+    width: 250px;
+    height: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step1:hover {
+    transform: scale(1.1);
+}
+
+.step2:hover {
+    transform: scale(1.1);
+}
+
+.step3:hover {
+    transform: scale(1.1);
+}
+
+.step__img {
+    max-width: 200px;
+    height: 200px;
+}
+
+.circle__steps {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+
+/* ________________________________ */
+
+
+footer {
+    background-color: rgb(60, 180, 180);
+    padding: 15px;
+    width: 100vw;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.footer-link__elem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-link__elem_p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.what_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.footer-logo {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-logo__title {
+    padding-top: 7px;
+}
+
+.foot__first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot__sec {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn,
+.btn-primary {
+    display: flex;
+    background-color: rgb(60, 180, 180);
+    gap: 15px;
+    padding: 0;
+    border: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgb(60, 180, 180);
+
+}
+
+.btn-primary:hover {
+    background-color: rgb(60, 180, 180);
+}
+
+.btn:active {
+    background-color: rgb(60, 180, 180);
+
+}
+
+.btn-primary:active {
+    background-color: rgb(60, 180, 180);
+}
+
+
+
+
+
+
+@media(max-width: 1300px) {
+    .carousel-inner {
+        max-width: 500px;
+    }
+
+    .wrap-info {
+        width: 90%;
+
+    }
+
+    .about-item {
+        width: 280px;
+        height: 280px;
+    }
+
+    .about-item__img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .future__h1 {
+        line-height: 40px;
+        font-size: 35px;
+    }
+
+    .step1,
+    .step2,
+    .step3 {
+        width: 380px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: white;
+        height: 300px;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 15px;
+        transition: 0.6s;
+
+    }
+
+    .step__desc {
+        width: 200px;
+        height: 200px;
+        font-size: 20px;
+    }
+
+    .step__img {
+        width: 180px;
+        height: 180px;
+    }
+    .circle__steps{
+        width: 180px;
+        height: 180px;  
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-inner {
+        max-width: 400px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .wrap__link {
+        padding-left: 100px;
+    }
+
+    .wrap-desc h3 {
+        width: 356px;
+    }
+
+    .about {
+        height: 650px;
+    }
+
+    .prof__div {
+        margin-top: auto;
+    }
+
+    .accordion-item {
+        width: 325px;
+    }
+
+    .kurs__img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profiles {
+        height: auto;
+    }
+
+    .future__div {
+        height: 450px;
+    }
+
+    .future-el {
+        width: 230px;
+    }
+
+    .future__img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #correct__future {
+        height: 150px;
+    }
+
+    #correct__future_h1 {
+        padding-top: 0px;
+    }
+
+    #correct__future_h5 {
+        padding-top: 0px;
+    }
+
+    .future__h1 {
+        line-height: 25px;
+        font-size: 25px;
+    }
+
+    .future__desc {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:768px) {
+    .future__div {
+        padding: 15px;
+        height: auto;
+    }
+}
+@media (max-width: 480px) {
+    .title{
+        font-size: 45px;
+    }
+    .wrap {
+        height: 700px;
+    }
+
+    .wrap-info {
+        height: 650px;
+    }
+
+    .wrap-desc {
+        width: 400px;
+        padding: 10px;
+    }
+    .wrap-desc h3 {
+    width: 316px;
+    font-size: 20px;
+}
+    .wrap__link {
+        padding-left: 105px !important;
+        width: 400px;
+    }
+
+    .carousel-inner {
+        width: 300px;
+    }
+
+    .about {
+        height: auto !important;
+    }
+
+    .about-item {
+        margin: 20px 0px;
+    }
+
+    .prof__div h6 {
+        width: 250px;
+        margin: 25px;
+        font-size: 20px;
+    }
+
+    .profiles {
+        height: auto;
+        align-items: start;
+    }
+
+    .accordion-item {
+        width: 350px;
+        border-radius: 50px;
+    }
+
+    .kurs__img {
+        height: 150px;
+    }
+
+    .help__img {
+        bottom: 10px;
+        right: 30px;
+    }
+
+    .future-el {
+        margin-bottom: 15px;
+    }
+
+    .step1,
+    .step2,
+    .step3 {
+        width: 250px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 300px;
+    }
+
+    .step__desc {
+        text-align: center;
+        font-size: 15px;
+        width: 150px;
+        height: 100px;
+    }
+
+    .step__img {
+        margin-top: 50px;
+        width: 130px;
+        height: 130px;
+        margin-bottom: 25px;
+    }
+
+    .lesson {
+        background-color: rgb(226, 171, 69);
+        text-align: center;
+        height: auto;
+        padding: 25px;
+    }
+
+    .steps {
+        position: relative;
+    }
+
+    #problem {
+        margin: 15px;
+    }
+    .circle__steps {
+        width: 100px;
+        height: 100px;
+    }
+    .lesson__desc {
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+
+}
